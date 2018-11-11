@@ -13,9 +13,9 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @SpringBootApplication
 @EnableConfigServer
 @EnableDiscoveryClient
-public class CsopttConfigApplication {
+public class CsopttConfApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CsopttConfigApplication.class, args);
+		SpringApplication.run(CsopttConfApplication.class, args);
 	}
 }
