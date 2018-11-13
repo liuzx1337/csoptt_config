@@ -6,7 +6,10 @@
 	<groupId>com.csoptt</groupId>
 	<artifactId>csoptt_config</artifactId>
 	<version>1.0.0</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>csoptt_config-properties</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>csoptt_config</name>
 	<description>Csoptt&#39;s config base on Spring Cloud.</description>
@@ -71,15 +74,4 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
-
-
 </project>

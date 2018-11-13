@@ -7,15 +7,15 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
  * 启动类
- * 配置中心
+ * 配置中心服务端
  * 可被注册中心发现
  */
 @SpringBootApplication
 @EnableConfigServer
 @EnableDiscoveryClient
-public class CsopttConfApplication {
+public class CsopttConfigMainApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CsopttConfApplication.class, args);
+		SpringApplication.run(CsopttConfigMainApplication.class, args);
 	}
 }
