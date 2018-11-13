@@ -32,6 +32,11 @@ public class FileUploadProperties {
     private String nginxBasePath = "http://127.0.0.1:8080/";
 
     /**
+     * 缩略图根目录
+     */
+    private String thumbnailBasePath = "/home/thumbnail/";
+
+    /**
      * 上传文件种类与目录的映射关系
      * 可自定义
      */
@@ -121,5 +126,25 @@ public class FileUploadProperties {
      */
     public void setFileUploadZone(Map<String, String> fileUploadZone) {
         this.fileUploadZone = fileUploadZone;
+    }
+
+    /**
+     * Gets the value of thumbnailBasePath.
+     *
+     * @return the value of thumbnailBasePath
+     */
+    public String getThumbnailBasePath() {
+        return thumbnailBasePath;
+    }
+
+    /**
+     * Sets the thumbnailBasePath.
+     * <p>
+     * <p>You can use getThumbnailBasePath() to get the value of thumbnailBasePath</p>
+     *
+     * @param thumbnailBasePath thumbnailBasePath
+     */
+    public void setThumbnailBasePath(String thumbnailBasePath) {
+        this.thumbnailBasePath = thumbnailBasePath;
     }
 }
