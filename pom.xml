@@ -7,7 +7,7 @@
 	<artifactId>csoptt_config</artifactId>
 	<version>1.0.0</version>
 	<modules>
-		<module>csoptt_config-properties</module>
+		<module>csoptt_config-main</module>
 	</modules>
 	<packaging>pom</packaging>
 
