@@ -5,13 +5,27 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.csoptt</groupId>
     <artifactId>csoptt_config-properties</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <dependencies>
+        <!-- Spring Boot Web组件 弃用内嵌的springmvc组件 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>2.0.4.RELEASE</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-webmvc</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- 自启用的Spring MVC组件 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>4.3.13.RELEASE</version>
+            <scope>compile</scope>
         </dependency>
         <!-- 允许加载配置 -->
         <dependency>
