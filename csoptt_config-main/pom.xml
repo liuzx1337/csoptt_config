@@ -13,7 +13,6 @@
 		<groupId>com.csoptt</groupId>
 		<artifactId>csoptt_config</artifactId>
 		<version>1.0.0</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
