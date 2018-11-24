@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * 文件传输 - 配置
  *
- * @author liuzixi
+ * @author qishao
  * @date 2018-11-09
  */
 @Component
